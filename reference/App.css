@@ -1,0 +1,32 @@
+.game-container { 
+  background-color: #222; 
+  color: white; 
+  height: 100vh; 
+  font-family: monospace; 
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #111;
+}
+.desk-area {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.character-preview { 
+  position: relative; 
+  width: 256px; 
+  height: 256px; 
+}
+.character-preview .layer { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+.ticket {
+  background: #333;
+  padding: 1rem;
+  border-radius: 8px;
+}
