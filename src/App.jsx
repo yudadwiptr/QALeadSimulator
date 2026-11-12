@@ -105,6 +105,27 @@ export default function App() {
 
   return (
     <div className="relative h-full">
+      {/* credit global di pojok kiri bawah */}
+      <a
+        href="https://yumastudio.digital/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-pixel absolute z-[70]"
+        style={{
+          fontSize: 8,
+          left: 10,
+          bottom: 6,
+          padding: '4px 8px',
+          background: 'rgba(8, 12, 22, 0.78)',
+          color: '#7dd3fc',
+          border: '1px solid #1e3a8a',
+          textDecoration: 'none',
+          opacity: 0.88,
+        }}
+      >
+        Build by yumastudio.digital
+      </a>
+
       {/* tombol mute global */}
       <button
         className="pixel-btn absolute z-[70]"
