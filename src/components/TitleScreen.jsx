@@ -167,23 +167,38 @@ export default function TitleScreen({ onStart }) {
       </div>
 
       {/* BOTTOM BAR */}
-      <div className="relative z-10 flex items-center justify-between" style={{ fontSize: 18, color: '#94a3b8' }}>
+      <div
+        className="relative z-10 flex items-center justify-between pr-10"
+        style={{ fontSize: 18, color: '#94a3b8' }}
+      >
         <span>☕ Tip: Minum kopi saat mata mulai buram · Beli outfit & alat bantu di QA Shop</span>
-        <div className="flex items-center gap-4">
-          <span>Shift 09:00 – 17:00 WIB</span>
-          <span>·</span>
+        <div className="flex items-center gap-2.5">
+          <a
+            href="https://saweria.co/yudadwiptr"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pixel-btn btn-yellow"
+            style={{
+              fontSize: 9,
+              padding: '6px 10px',
+              textDecoration: 'none',
+              color: '#fff',
+            }}
+          >
+            ☕ Jajan Token ↗
+          </a>
           <a
             href="https://yumastudio.digital/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-pixel"
+            className="pixel-btn"
             style={{
               fontSize: 9,
               color: '#7dd3fc',
               textDecoration: 'none',
-              background: 'rgba(10, 14, 24, 0.85)',
-              padding: '5px 10px',
-              border: '2px solid #1e3a8a',
+              background: 'rgba(10, 14, 24, 0.9)',
+              padding: '6px 10px',
+              borderColor: '#1e3a8a',
             }}
           >
             Build by yumastudio.digital ↗
